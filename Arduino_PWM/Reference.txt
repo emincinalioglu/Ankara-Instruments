@@ -1,0 +1,5 @@
+Code for PWM was borrowed from :
+  Tutorials > Built-In Examples > 03.Analog > AnalogInOutSerial
+
+  Frequency changing code line was added
+  ( i.e. TCCR0B = TCCR0B & 0b11111000 | 0x02 )
